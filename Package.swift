@@ -17,14 +17,14 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_StoreWrapper",
 				dependencies: [
 					"GXCoreModule_SD_Store",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS])),
-					.product(name: "GXOpenSSL", package: "openssl-apple", condition: .when(platforms: [.iOS, .tvOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .iOS])),
+					.product(name: "GXOpenSSL", package: "openssl-apple", condition: .when(platforms: [.tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Store",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Store-1.0.0-beta+20230505132240.xcframework.zip",
-			checksum: "778d250f21285cd4ecb704ff1c041e7a1b5ff062fe1280be3fcc280f22f7fbd8"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Store-1.0.0-beta+20230505145632.xcframework.zip",
+			checksum: "eb18150fb181d1a1058a62c92c79259ad102a9a1347332e8dd12fcda48c8b330"
 		)
 	]
 )
