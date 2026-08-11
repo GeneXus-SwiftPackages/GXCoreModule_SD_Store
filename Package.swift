@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_StoreWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "5.0.0-rc.0")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "5.0.0-rc.1")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_StoreWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Store",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreModule_SD_Store-5.0.0-rc.0.xcframework.zip",
-			checksum: "46b7528aa56a1fdbe7d88bf8c39a2fb824c6f84145ae796cd1720505e6203088"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreModule_SD_Store-5.0.0-rc.1.xcframework.zip",
+			checksum: "44f2d69bbe20c92c2ffe09726c92cdeeec651611f187565c43b91018e6912d4b"
 		)
 	]
 )
